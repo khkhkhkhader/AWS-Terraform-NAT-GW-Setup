@@ -32,11 +32,14 @@ This Terraform project sets up AWS private subnet EC2 instance and aims to make 
 ## Results
 In Order to verify **NAT Gateway** is working and providing internet access to the private EC2 instance follow these steps:
 
-### 1. SSH into the Public EC2 Instance
+### 1. SSH into the Public EC2 Instance 
+I used the private keypair which generated from keypairs.tf file to shh on the public after i saved it locally in this path ~/.ssh/my_terraform_key.pem
 
 ### 2. SSH into the Private EC2 Instance from the Public EC2 Instance
+I used secure copy with scp command to  copy the key to Public EC2 Instance which placed in public subnet, So we can use this key later to have ssh connection on Private EC2 Instance on the private subnet in same VPC **I can't ssh directly from my local machine to Private EC2 Instance as it doesn't have public ip**
 
 ### 3.  Test Internet Connectivity from the Private EC2 Instance
+
 
 ![Image](https://github.com/user-attachments/assets/2281baa6-d0e3-44bb-a83a-384e47697491)
 
