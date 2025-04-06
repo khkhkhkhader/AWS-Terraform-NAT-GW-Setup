@@ -2,7 +2,7 @@
 
 This Terraform project sets up AWS private subnet EC2 instance and aims to make it internet accessable through NAT Gateway Additionally it provides EC2 instance running Apache in a public subnet enabling direct internet access via an Internet Gateway, Both EC2 instances has security group is configured to allow HTTP (80), SSH (22), and HTTPS (443) traffic
 
-
+![Image](https://github.com/user-attachments/assets/5c2f16dc-9561-4983-b5a2-656088f671f0)
 
 
 
