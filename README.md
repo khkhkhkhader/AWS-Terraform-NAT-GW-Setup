@@ -4,7 +4,7 @@ This Terraform project sets up AWS private subnet EC2 instance and aims to make 
 
 ![Image](https://github.com/user-attachments/assets/5c2f16dc-9561-4983-b5a2-656088f671f0)
 
-![Image](https://github.com/user-attachments/assets/2281baa6-d0e3-44bb-a83a-384e47697491)
+
 ## Resources Created
 
 1. **VPC**: A Virtual Private Cloud is created using the CIDR block provided in the `variables.tf` file.
@@ -28,6 +28,18 @@ This Terraform project sets up AWS private subnet EC2 instance and aims to make 
 2. **AWS Account**: You need an AWS account with the necessary IAM permissions to create resources like VPC, EC2 instances, and S3 buckets.
 3. **AWS CLI**: Install the AWS CLI to configure your credentials.
 4. **IAM Permissions**: Ensure you have permissions to create and manage VPCs, subnets, EC2 instances, NAT Gateways, Elastic IPs, S3 buckets, etc.
+
+## Results
+In Order to verify **NAT Gateway** is working and providing internet access to the private EC2 instance follow these steps:
+
+### 1. SSH into the Public EC2 Instance
+
+### 2. SSH into the Private EC2 Instance from the Public EC2 Instance
+
+### 3.  Test Internet Connectivity from the Private EC2 Instance
+
+![Image](https://github.com/user-attachments/assets/2281baa6-d0e3-44bb-a83a-384e47697491)
+
 
 ## How to Use
 
