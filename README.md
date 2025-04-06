@@ -4,7 +4,7 @@ This Terraform project sets up AWS private subnet EC2 instance and aims to make 
 
 ![Image](https://github.com/user-attachments/assets/5c2f16dc-9561-4983-b5a2-656088f671f0)
 
-
+![Image](https://github.com/user-attachments/assets/bc4bef8e-6d7f-4532-8582-b471316e2a78)
 
 ## Resources Created
 
