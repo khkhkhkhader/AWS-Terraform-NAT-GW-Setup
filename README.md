@@ -4,8 +4,7 @@ This Terraform project sets up AWS private subnet EC2 instance and aims to make 
 
 ![Image](https://github.com/user-attachments/assets/5c2f16dc-9561-4983-b5a2-656088f671f0)
 
-![Image](https://github.com/user-attachments/assets/bc4bef8e-6d7f-4532-8582-b471316e2a78)
-
+![Image](https://github.com/user-attachments/assets/2281baa6-d0e3-44bb-a83a-384e47697491)
 ## Resources Created
 
 1. **VPC**: A Virtual Private Cloud is created using the CIDR block provided in the `variables.tf` file.
